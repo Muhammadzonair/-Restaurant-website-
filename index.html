@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bella Vista Restaurant - Fine Dining Experience</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top custom-navbar">
+        <div class="container">
+            <a class="navbar-brand" href="#home">
+                <img src="https://images.unsplash.com/photo-1551218808-94e220e084d2?w=50&h=50&fit=crop&crop=center" alt="Bella Vista Logo" class="logo-img me-2">
+                <span class="brand-text">Bella Vista</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#menu">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#login">Staff Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="container">
+                <div class="row justify-content-center text-center">
+                    <div class="col-lg-8">
+                        <div class="hero-logo-container mb-4">
+                            <img src="https://images.unsplash.com/photo-1551218808-94e220e084d2?w=80&h=80&fit=crop&crop=center" alt="Bella Vista Logo" class="hero-logo">
+                        </div>
+                        <h1 class="hero-title">Welcome to Bella Vista</h1>
+                        <p class="hero-subtitle">Where Culinary Art Meets Exceptional Service</p>
+                        <p class="hero-description">Experience the finest in Mediterranean cuisine with locally sourced ingredients and innovative cooking techniques.</p>
+                        <div class="hero-buttons">
+                            <a href="#menu" class="btn btn-primary btn-lg me-3">View Menu</a>
+                            <a href="#contact" class="btn btn-outline-light btn-lg">Make Reservation</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <a href="#menu" class="scroll-down">
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title">Our Menu</h2>
+                    <p class="section-subtitle">Carefully crafted dishes using the finest ingredients</p>
+                </div>
+            </div>
+            
+            <!-- Menu Categories -->
+            <div class="row">
+                <!-- Starters -->
+                <div class="col-lg-4 mb-5">
+                    <div class="menu-category">
+                        <h3 class="category-title">
+                            <i class="fas fa-leaf me-2"></i>
+                            Starters
+                        </h3>
+                        <div class="menu-items">
+                            <div class="menu-item">
+                                <div class="item-image">
+                                    <img src="https://images.unsplash.com/photo-1551218808-94e220e084d2?w=300&h=200&fit=crop" alt="Bruschetta" class="img-fluid">
+                                    <div class="item-overlay">
+                                        <button class="btn btn-primary order-btn">Order Now</button>
+                                    </div>
+                                </div>
+                                <div class="item-info">
+                                    <h4>Mediterranean Bruschetta</h4>
+                                    <p>Fresh tomatoes, basil, and mozzarella on artisan bread</p>
+                                    <span class="price">$12.99</span>
+                                </div>
+                            </div>
+                            
+                            <div class="menu-item">
+                                <div class="item-image">
+                                    <img src="https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=300&h=200&fit=crop" alt="Calamari" class="img-fluid">
+                                    <div class="item-overlay">
+                                        <button class="btn btn-primary order-btn">Order Now</button>
+                                    </div>
+                                </div>
+                                <div class="item-info">
+                                    <h4>Crispy Calamari</h4>
+                                    <p>Tender squid rings with spicy marinara sauce</p>
+                                    <span class="price">$15.99</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Main Course -->
+                <div class="col-lg-4 mb-5">
+                    <div class="menu-category">
+                        <h3 class="category-title">
+                            <i class="fas fa-fire me-2"></i>
+                            Main Course
+                        </h3>
+                        <div class="menu-items">
+                            <div class="menu-item">
+                                <div class="item-image">
+                                    <img src="https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=300&h=200&fit=crop" alt="Grilled Salmon" class="img-fluid">
+                                    <div class="item-overlay">
+                                        <button class="btn btn-primary order-btn">Order Now</button>
+                                    </div>
+                                </div>
+                                <div class="item-info">
+                                    <h4>Grilled Atlantic Salmon</h4>
+                                    <p>Fresh salmon with lemon herb butter and seasonal vegetables</p>
+                                    <span class="price">$28.99</span>
+                                </div>
+                            </div>
+                            
+                            <div class="menu-item">
+                                <div class="item-image">
+                                    <img src="https://media.istockphoto.com/id/536616025/photo/medium-rare-steak.webp?a=1&b=1&s=612x612&w=0&k=20&c=UJ8vaT-d8cAIKIrMuivLlQbpiKUwq_C-b2wgWnNRDxw=" alt="Beef Tenderloin" class="img-fluid">
+                                    <div class="item-overlay">
+                                        <button class="btn btn-primary order-btn">Order Now</button>
+                                    </div>
+                                </div>
+                                <div class="item-info">
+                                    <h4>Beef Tenderloin</h4>
+                                    <p>Premium cut with red wine reduction and roasted potatoes</p>
+                                    <span class="price">$35.99</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Desserts -->
+                <div class="col-lg-4 mb-5">
+                    <div class="menu-category">
+                        <h3 class="category-title">
+                            <i class="fas fa-ice-cream me-2"></i>
+                            Desserts
+                        </h3>
+                        <div class="menu-items">
+                            <div class="menu-item">
+                                <div class="item-image">
+                                    <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=300&h=200&fit=crop" alt="Tiramisu" class="img-fluid">
+                                    <div class="item-overlay">
+                                        <button class="btn btn-primary order-btn">Order Now</button>
+                                    </div>
+                                </div>
+                                <div class="item-info">
+                                    <h4>Classic Tiramisu</h4>
+                                    <p>Traditional Italian dessert with espresso and mascarpone</p>
+                                    <span class="price">$9.99</span>
+                                </div>
+                            </div>
+                            
+                            <div class="menu-item">
+                                <div class="item-image">
+                                    <img src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=300&h=200&fit=crop" alt="Chocolate Lava Cake" class="img-fluid">
+                                    <div class="item-overlay">
+                                        <button class="btn btn-primary order-btn">Order Now</button>
+                                    </div>
+                                </div>
+                                <div class="item-info">
+                                    <h4>Chocolate Lava Cake</h4>
+                                    <p>Warm chocolate cake with molten center and vanilla ice cream</p>
+                                    <span class="price">$11.99</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Login Section -->
+    <section id="login" class="login-section py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="login-container">
+                        <div class="row">
+                            <!-- Login Form -->
+                            <div class="col-md-6">
+                                <div class="login-form">
+                                    <h3 class="login-title">
+                                        <i class="fas fa-user-shield me-2"></i>
+                                        Staff Login
+                                    </h3>
+                                    <form id="staffLoginForm">
+                                        <div class="mb-3">
+                                            <label for="username" class="form-label">Username</label>
+                                            <input type="text" class="form-control" id="username" required>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="password" class="form-label">Password</label>
+                                            <input type="password" class="form-control" id="password" required>
+                                        </div>
+                                        <button type="submit" class="btn btn-primary w-100">Login</button>
+                                    </form>
+                                </div>
+                            </div>
+                            
+                            <!-- Orders Table -->
+                            <div class="col-md-6">
+                                <div class="orders-container" id="ordersContainer" style="display: none;">
+                                    <h3 class="orders-title">
+                                        <i class="fas fa-clipboard-list me-2"></i>
+                                        Current Orders
+                                    </h3>
+                                    <div class="table-responsive">
+                                        <table class="table table-striped">
+                                            <thead>
+                                                <tr>
+                                                    <th>Order ID</th>
+                                                    <th>Table</th>
+                                                    <th>Items</th>
+                                                    <th>Status</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody id="ordersTableBody">
+                                                <!-- Orders will be populated by JavaScript -->
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="footer-brand">
+                        <h3 class="footer-title">
+                            <img src="https://images.unsplash.com/photo-1551218808-94e220e084d2?w=50&h=50&fit=crop&crop=center" alt="Bella Vista Logo" class="footer-logo me-2">
+                            Bella Vista
+                        </h3>
+                        <p class="footer-description">
+                            Experience the finest in Mediterranean cuisine with locally sourced ingredients and innovative cooking techniques.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 mb-4">
+                    <div class="footer-contact">
+                        <h4 class="footer-subtitle">Contact Info</h4>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt me-2"></i>
+                            <span>123 Culinary Street, Food City, FC 12345</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone me-2"></i>
+                            <span>+1 (555) 123-4567</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope me-2"></i>
+                            <span>info@bellavista.com</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 mb-4">
+                    <div class="footer-social">
+                        <h4 class="footer-subtitle">Follow Us</h4>
+                        <div class="social-links">
+                            <a href="#" class="social-link">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                        <div class="footer-hours">
+                            <h5>Opening Hours</h5>
+                            <p>Monday - Thursday: 5:00 PM - 10:00 PM</p>
+                            <p>Friday - Saturday: 5:00 PM - 11:00 PM</p>
+                            <p>Sunday: 4:00 PM - 9:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-12">
+                    <div class="footer-bottom">
+                        <p>&copy; 2024 Bella Vista Restaurant. All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
